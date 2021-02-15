@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
+.header {
+    height: 60px;
+    background-color: #272727;
+    color: #F5E5D9;
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menu {
+    display: flex;
+}
+
+.swiper-container {
+    width: 100%;
+}
+
+.circles-container {
+    height: 150px;
+    display: flex;
+    padding: 0 15%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle-avatar {
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    background-color: #272727;
+}
+
+.products-container {
+    width: 100%;
+    color: #F5E5D9;
+    height: 500px;
+    display: flex;
+    position: relative;
+}
+
+.products-background {
+    background-color: #272727;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    z-index: -1000;
+    top: 0;
+}
+
+.products-description {
+    width: 30%;
+}
+
+.col {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    margin-top: 20%;
+}
+
+.banner-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+}
+
+.banner-info {
+    color: #000;
+}
+
+.product-highlight {
+    margin-top: 10%;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #f6f6f6;
+}
+
+.banner-container {
+    width: 80%;
+}
+
+.highlight-background {
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    background-color: #272727;
+    z-index: -1000;
+}
+
+.highlight-content {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.highlight-carousel {
+    background-color: #000;
+    width: fit-content;
+}
+
+.social-container {
+    margin-top: 5%;
+    padding: 0 5%;
+}
+
+.footer-container {
+    margin-top: 10%;
+}
+
+.footer {
+    padding: 50px 70px;
+}
+
+.divider {
+    width: 47%;
+    background-color: black;
+    height: 1px;
+}
